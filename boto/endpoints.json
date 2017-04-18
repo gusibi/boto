@@ -791,7 +791,7 @@
               "http", 
               "https"
             ], 
-            "sslCommonName": "{region}.queue.{dnsSuffix}"
+            "sslCommonName": "sqs.{region}.{dnsSuffix}"
           }, 
           "endpoints": {
             "ap-northeast-1": {}, 
@@ -1075,7 +1075,7 @@
               "http", 
               "https"
             ], 
-            "sslCommonName": "{region}.queue.{dnsSuffix}"
+            "sslCommonName": "sqs.{region}.{dnsSuffix}"
           }, 
           "endpoints": {
             "cn-north-1": {}
